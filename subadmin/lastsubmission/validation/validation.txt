@@ -1,0 +1,20 @@
+ <div class="form-group">
+ <label>new password</label>
+ <input type="password" required="" class="form-control" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" id="new_password" title="Password (UpperCase, LowerCase, Number/SpecialChar and min 8 Chars)" name="newpassword" placeholder=" Please Enter The Password" class="input-fields">
+ </div>
+ <div class="form-group">
+ <label>confirm password</label>
+ <input  type="password" required="" class="form-control" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" id="cur_password" title="Password (UpperCase, LowerCase, Number/SpecialChar and min 8 Chars)" name="confirmpassword" placeholder=" Please Enter The Password" class="input-fields">
+ </div>
+<div class="form-group">
+<label>
+Package Name
+</label>
+<input class="form-control" type="text" pattern="[A-Za-z\s]+" title="Letters and space only" placeholder="Enter a package name" name="pname" required="">
+</div>
+<div class="form-group">
+<label>
+Package Amount
+</label>
+<input class="form-control" type="text" pattern="[0-9]{3,5}" title="only numbers" placeholder="amount" name="amt" required="">
+</div>
